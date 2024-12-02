@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(230, 174, 230);
+}
+
+h1{
+    text-align: center;
+    font-size: 200px;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.p1{
+    font-size: 100px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.urso{
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+.lado{
+    float: left;
+    width: 50%;
+    padding: 20px;
+    width: 400px;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    color: whitesmoke;
+    border: 5px solid black;
+    padding: 4px 4px 4px 4px;
+    border-radius: 4px;
+    margin-left: 43%;
+    margin-top: 100px;
+    background-color: blueviolet;
+}
+
+.p3{
+    font-family: 'Lor', cursive;
+
+}
+
+@media (max-width: 600px) {
+    .container {
+      width: 100%;
+      padding: 10px;
+    }
+  }
+
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
